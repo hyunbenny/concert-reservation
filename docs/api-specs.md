@@ -213,7 +213,7 @@
 | totalPrice    | String        | N   | 총 결제 금액 |                                                             |
 | status        | String        | N   | 예약 상태   | RESERVED(결제 대기), COMPLETED(결제완료), CANCELED(취소), EXPIRED(만료) |
 
-# 좌석 예약 요청 API
+# 예약 상세 조회 API
 - **Method:** GET
 - **URL:** `/api/v1/reservation/{reservationId}`
 - **설명:** 예약 상세 조회
